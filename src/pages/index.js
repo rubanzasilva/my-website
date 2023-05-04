@@ -1,4 +1,6 @@
 import React, {useState}from 'react';
+import Navbar from '../components/navBar';
+import SideBar from '../components/sideBar';
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -9,7 +11,8 @@ const Home = () => {
 
     return (
         <div className='homeWrapper'>
-            <p>Hommmmmmeeeeeeeeeeeeeeeeeeeeeee</p>
+            <SideBar isOpen={isOpen} toggle={toggle} />
+            <Navbar toggle={toggle} />
 
             
         </div>
