@@ -14,7 +14,7 @@ const Navbar = ({toggle,img,alt}) => {
           <Nav>
               <NavBarContainer>
                   <NavLogo to='/'>
-                  SUWIK
+                  SR
                       {/* <Img src={logo} alt={alt}/> */}
                   </NavLogo>
 
