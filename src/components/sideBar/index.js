@@ -23,28 +23,20 @@ const SideBar = ({title1,title5,isOpen,toggle}) => {
             <SideBarWrapper>
                 <SideBarMenu>
                     {/* <SideBarLink to="/About"> */}
-                    <SideBarRoute to="/ProductCatalog">
-                    <Title level={5} style={{color:"#35241A",fontSize:"17px",lineHeight:"1.10722",fontWeight:"400",letterSpacing:".004em",marginTop:"6px",fontFamily:"Lato,Roboto"}}>Our Products</Title>
+                    <SideBarRoute to="/">
+                        <p> sidebar route 1</p>
+                    //<Title level={5} style={{color:"#35241A",fontSize:"17px",lineHeight:"1.10722",fontWeight:"400",letterSpacing:".004em",marginTop:"6px",fontFamily:"Lato,Roboto"}}>About me</Title>
                     </SideBarRoute>
 
-                    <SideBarRoute to="/ProductCatalog"> 
-                    <Title level={5} style={{color:"#35241A",fontSize:"17px",lineHeight:"1.10722",fontWeight:"400",letterSpacing:".004em",fontFamily:"Lato,Roboto"}}>About</Title>
+                    <SideBarRoute to="/"> 
+                    <Title level={5} style={{color:"#35241A",fontSize:"17px",lineHeight:"1.10722",fontWeight:"400",letterSpacing:".004em",fontFamily:"Lato,Roboto"}}>Projects of Interest</Title>
                     </SideBarRoute>
                     
                     {/* <SideBarLink to="/RoastedBeans"> */}
                     <SideBarRoute to="/ProductCatalog">
-                    <Title level={5} style={{color:"#35241A",fontSize:"17px",lineHeight:"1.10722",fontWeight:"400",letterSpacing:".004em",fontFamily:"Lato,Roboto"}}>Fruits & Vegetables</Title>
+                    <Title level={5} style={{color:"#35241A",fontSize:"17px",lineHeight:"1.10722",fontWeight:"400",letterSpacing:".004em",fontFamily:"Lato,Roboto"}}>My Blog</Title>
                     </SideBarRoute>
-
-                    {/* <SideBarLink to="/shop"> */}
-                    <SideBarRoute to="/ProductCatalog">
-                    <Title level={5} style={{color:"#35241A",fontSize:"17px",lineHeight:"1.10722",fontWeight:"400",letterSpacing:".004em",fontFamily:"Lato,Roboto"}}>Cereals</Title>
-                    </SideBarRoute>
-
-                    {/* <SideBarLink to="/cart"> */}
-                    <SideBarRoute to="/ProductCatalog">
-                    <Title level={5} style={{color:"#35241A",fontSize:"17px",lineHeight:"1.10722",fontWeight:"400",letterSpacing:".004em",fontFamily:"Lato,Roboto"}}>Food sustainability</Title>
-                    </SideBarRoute>
+                   
 
                     <SideBtnWrap>
                         <SideBarRoute to="/ContactUs">
