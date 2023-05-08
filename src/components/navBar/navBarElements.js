@@ -37,7 +37,7 @@ export const NavBarContainer = styled.div`
 
 
 export const NavLogo = styled(LinkR)`
- color:green;
+ color:#000000;
  justify-self:flex-start;
  cursor:pointer;
  font-size:1.5rem;
@@ -93,7 +93,7 @@ export const NavItem = styled.li`
 
 //to change the color of the links in the navbar
 export const NavLinks = styled(LinkR)`
- color:#35241A;
+ ccolor:black;
  display:flex;
  align-items:center;
  text-decoration:none;
@@ -143,7 +143,7 @@ export const NavBtn = styled.nav`
 `
 
 export const NavBtnLink = styled(LinkR)`
- color:#00a886;
+ color:#0000FF;
  display: flex;
  justify-content:flex-end;
  margin-left:16px;

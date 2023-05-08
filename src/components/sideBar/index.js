@@ -23,24 +23,23 @@ const SideBar = ({title1,title5,isOpen,toggle}) => {
             <SideBarWrapper>
                 <SideBarMenu>
                     {/* <SideBarLink to="/About"> */}
-                    <SideBarRoute to="/">
-                        <p> sidebar route 1</p>
-                    //<Title level={5} style={{color:"#35241A",fontSize:"17px",lineHeight:"1.10722",fontWeight:"400",letterSpacing:".004em",marginTop:"6px",fontFamily:"Lato,Roboto"}}>About me</Title>
+                    <SideBarRoute to="/">   
+                    <Title level={5} style={{color:"#000000",fontSize:"17px",lineHeight:"1.10722",fontWeight:"400",letterSpacing:".004em",marginTop:"6px",fontFamily:"Lato,Roboto"}}>About me</Title>
                     </SideBarRoute>
 
                     <SideBarRoute to="/"> 
-                    <Title level={5} style={{color:"#35241A",fontSize:"17px",lineHeight:"1.10722",fontWeight:"400",letterSpacing:".004em",fontFamily:"Lato,Roboto"}}>Projects of Interest</Title>
+                    <Title level={5} style={{color:"#000000",fontSize:"17px",lineHeight:"1.10722",fontWeight:"400",letterSpacing:".004em",fontFamily:"Lato,Roboto"}}>Projects of Interest</Title>
                     </SideBarRoute>
                     
                     {/* <SideBarLink to="/RoastedBeans"> */}
                     <SideBarRoute to="/ProductCatalog">
-                    <Title level={5} style={{color:"#35241A",fontSize:"17px",lineHeight:"1.10722",fontWeight:"400",letterSpacing:".004em",fontFamily:"Lato,Roboto"}}>My Blog</Title>
+                    <Title level={5} style={{color:"#000000",fontSize:"17px",lineHeight:"1.10722",fontWeight:"400",letterSpacing:".004em",fontFamily:"Lato,Roboto"}}>My Blog</Title>
                     </SideBarRoute>
                    
 
                     <SideBtnWrap>
                         <SideBarRoute to="/ContactUs">
-                        <Button to="/" type="link" size="medium"  style={{color:"#008000",background:"#F7F2EF",
+                        <Button to="/" type="link" size="medium"  style={{color:"#008000",
                        borderRadius:"6px",minWidth:"100px",marginTop:"15px"  }}>Contact Us { <RightOutlined />} </Button>
                         </SideBarRoute>
                     </SideBtnWrap>

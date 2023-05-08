@@ -41,7 +41,7 @@ export const FooterLinkItems = styled.div`
  width:240px;
  box-sizing:border-box;
  ${'' /* color:#35241A; */}
- color:#00a886;
+ color:#000000;
  
 
  @media screen and (max-width:1000px) {
@@ -57,14 +57,15 @@ export const FooterLinkItems = styled.div`
 export const FooterLinkTitle = styled.h1`
  margin-bottom:16px;
  ${'' /* color:#F7F2EF; */}
- color:#00a886;
+ color:#0000FF;
  font-family:"Lato","Roboto","Helvetica Neue",sans-serif;
  font-size:17px;
  font-weight:400;
 `
 export const FooterLink = styled(Link)`
  ${'' /* color:#F7F2EF; */}
- color:#191a1a;
+//  color:#191a1a;
+ color:#000000
  text-decoration:none;
  margin-bottom:0.5rem;
  font-size:14px;
@@ -94,7 +95,7 @@ export const SocialMediaWrap = styled.div`
 `
 export const SocialLogo = styled(Link)`
  ${'' /* color:#F7F2EF; */}
- color:#35241A;
+ color:#000000;
  justify-self:start;
  cursor:pointer;
  text-decoration:none;
@@ -105,7 +106,7 @@ export const SocialLogo = styled(Link)`
  font-weight:bold;
  `
 export const WebsiteRights = styled.small`
- color:#00a886;
+ color:#000000;
  ${'' /* color:#35241A; */}
  ${'' /* margin-bottom:16px; */}
  font-weight:600;
