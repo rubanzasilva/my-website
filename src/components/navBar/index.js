@@ -14,7 +14,7 @@ const Navbar = ({toggle,img,alt}) => {
           <Nav>
               <NavBarContainer>
                   <NavLogo to='/'>
-                  SR
+                  Silver Rubanza (Silva)
                       {/* <Img src={logo} alt={alt}/> */}
                   </NavLogo>
 
@@ -24,7 +24,7 @@ const Navbar = ({toggle,img,alt}) => {
 
                   <NavMenu>
                       <NavItem>
-                          <NavLinks to="/"> About Me </NavLinks>
+                          <NavLinks to="/"> About Silver </NavLinks>
                           {/* <NavLinks to="/ContactUs">About Zicofe</NavLinks> */}
                       </NavItem>
                       
@@ -32,7 +32,7 @@ const Navbar = ({toggle,img,alt}) => {
                       <NavItem>
 
                           {/* <NavLinks to="/cafe">Zicofe Cafe</NavLinks> */}
-                          <NavLinks to="/">Projects of intrest</NavLinks>
+                          <NavLinks to="/">Projects of interest</NavLinks>
                       </NavItem>
 
 
