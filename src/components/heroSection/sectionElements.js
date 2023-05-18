@@ -48,7 +48,7 @@ export const SectionText = styled.div`
  display:flex;
  flex-direction:column;
  text-align:justify;
- align-content:center;
+ align-content:flex-start;
  padding:64px;
 
 
