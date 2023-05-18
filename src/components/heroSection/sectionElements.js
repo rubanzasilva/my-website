@@ -3,7 +3,8 @@ import styled from "styled-components";
 
 export const GridWrapper = styled.ul`
  display:grid;
- grid-template-columns:1fr 1fr;
+ grid-template-columns:2fr 1fr;
+ width: 80%;
  ${'' /* background-color:#F7F2EF; */}
  background-color: #00a886;
  list-style-type:none;
@@ -46,7 +47,7 @@ export const SectionText = styled.div`
  line-height:75px;
  display:flex;
  flex-direction:column;
- text-align:center;
+ text-align:justify;
  align-content:center;
  padding:64px;
 
