@@ -1,8 +1,6 @@
 import React, {useState} from 'react';
 import { GridWrapper,GridItem , SectionText,ImgWrap,Img} from './sectionElements';
 import {Typography } from "antd";
-import "antd/dist/antd.css";
-
 const { Title , Text } = Typography;
 
 
