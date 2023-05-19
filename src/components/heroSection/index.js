@@ -26,14 +26,14 @@ const HeroSection = ({title,headline,description,text,text1,img,alt,TitleText}) 
                         <SocialIconLink href="https://www.linkedin.com/in/silver-rubanza/" target="_blank" arial-label="LinkedIn">
                             <FaLinkedin/>
                         </SocialIconLink>
-                        <SocialIconLink href="mailto:rubanza@rubanzasilver.xyz" target="_blank" arial-label="Email">
-                            <FaEnvelope/>
-                        </SocialIconLink>
                         <SocialIconLink href="https://twitter.com/countfettucine/" target="_blank" arial-label="Twitter">
                             <FaTwitter/>
                         </SocialIconLink>
                         <SocialIconLink href="https://github.com/rubanzasilva/" target="_blank" aria-label="Github">
                             <FaGithub/>
+                        </SocialIconLink>
+                        <SocialIconLink href="mailto:rubanza@rubanzasilver.xyz" target="_blank" arial-label="Email">
+                            <FaEnvelope/>
                         </SocialIconLink>
                     </SocialIcons>
                 </SocialMediaWrap>
