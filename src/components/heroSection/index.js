@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import { GridWrapper,GridItem , SectionText,ImgWrap,Img, SocialMedia, SocialMediaWrap, SocialLogo, SocialIcons, SocialIconLink, WebsiteRights} from './sectionElements';
 import {Typography } from "antd";
-import {FaFacebook,FaInstagram,FaWhatsapp,FaTwitter,FaTiktok, FaEnvelope, FaLinkedin} from 'react-icons/fa';
+import {FaWhatsapp,FaTwitter, FaEnvelope, FaLinkedin, FaGithub} from 'react-icons/fa';
 
 const { Title , Text } = Typography;
 
@@ -26,14 +26,14 @@ const HeroSection = ({title,headline,description,text,text1,img,alt,TitleText}) 
                         <SocialIconLink href="https://www.linkedin.com/in/silver-rubanza/" target="_blank" arial-label="LinkedIn">
                             <FaLinkedin/>
                         </SocialIconLink>
-                        <SocialIconLink href="rubanza@rubanzasilver.xyz" target="_blank" arial-label="Email Me">
+                        <SocialIconLink href="mailto:rubanza@rubanzasilver.xyz" target="_blank" arial-label="Email">
                             <FaEnvelope/>
                         </SocialIconLink>
                         <SocialIconLink href="https://twitter.com/countfettucine/" target="_blank" arial-label="Twitter">
                             <FaTwitter/>
                         </SocialIconLink>
-                        <SocialIconLink href="https://wa.me/message/FTZ2CS3TCD4HC1" target="_blank" aria-label="Whatsapp">
-                            <FaWhatsapp/>
+                        <SocialIconLink href="https://github.com/rubanzasilva/" target="_blank" aria-label="Github">
+                            <FaGithub/>
                         </SocialIconLink>
                     </SocialIcons>
                 </SocialMediaWrap>
