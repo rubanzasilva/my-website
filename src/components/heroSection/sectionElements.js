@@ -49,7 +49,7 @@ export const SectionText = styled.div`
  flex-direction:column;
  text-align:justify;
  align-content:flex-start;
- padding:64px;
+ padding:16px;
 
 
  @media screen and (max-width:780px) {

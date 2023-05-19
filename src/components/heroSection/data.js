@@ -1,8 +1,8 @@
 //data for about zicofe section
 export const SectionAinfo = {
     id:'vision',
-    TitleText:'Vision and Mission',
-    headline:'To be the leading exporter of the freshest, highest quality agricultural products with guaranteed customer satisfaction',
+    TitleText:'Hi, I am Rubanza Silver',
+    headline:'A Data Scientist with a background in Software Enginnering',
     text:'',
     text1:'',
     imgStart:false,
