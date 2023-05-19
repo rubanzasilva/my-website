@@ -1,13 +1,14 @@
 //data for about zicofe section
 export const SectionAinfo = {
-    id:'vision',
+    id:'SelfIntro',
     TitleText:'Hi, I am Rubanza Silver',
     headline:'A Data Scientist with a background in Software Enginnering',
     text:'My work and intrest lies in working on various stpes of the machine learning lifecycle from EDA, Data wrangling to Model building , deployment , testing etc',
     text1:'Below are examples of my work',
     imgStart:false,
-    img:'https://d322abd807wvow.cloudfront.net/suwik-photos/eatGreen.jpeg',
-    alt:'SUWIK vision',
+    // img:'https://d322abd807wvow.cloudfront.net/suwik-photos/eatGreen.jpeg',
+    img:'https://d322abd807wvow.cloudfront.net/rubanza-silver/IMG_8803.JPG',
+    alt:'Picture of Rubanza Silver',
 };
 
 
