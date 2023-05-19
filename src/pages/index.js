@@ -16,7 +16,6 @@ const Home = () => {
         <div className='homeWrapper'>
             <SideBar isOpen={isOpen} toggle={toggle} />
             <Navbar toggle={toggle} />
-            <div><p>hero section</p></div>
             <HeroSection {...SectionAinfo} />
             <Footer/>
 
