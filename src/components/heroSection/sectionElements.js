@@ -49,7 +49,7 @@ export const SectionText = styled.div`
  flex-direction:column;
  text-align:justify;
  align-content:center;
- padding:16px;
+ padding: 32px;
 
 
  @media screen and (max-width:780px) {
@@ -76,8 +76,8 @@ export const ImgWrap = styled.div`
 //removing the width causes element to go wild
 export const Img = styled.img`
     margin:auto;
-   width:80%;
-   height:80%;
+   width:60%;
+   height:60%;
    height:auto;
    object-fit:scale-down;
    left:0;
@@ -109,7 +109,7 @@ export const BtnWrap = styled.div`
 
 export const SocialMedia = styled.section`
  max-width:1000px;
- width:100%;
+ width:80%;
 `
 export const SocialMediaWrap = styled.div`
  display:flex;

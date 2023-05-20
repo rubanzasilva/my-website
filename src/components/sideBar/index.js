@@ -1,9 +1,10 @@
 import React from 'react'
 //import {SideBarContainer,Icon,CloseIcon, SideBtnWrap} from './SideBarElements';
-import {SideBarContainer, Icon ,CloseIcon,SideBarWrapper,SideBarMenu,SideBtnWrap,SideBarRoute} from './sideBarElements'
+import {SideBarContainer, Icon ,CloseIcon,SideBarWrapper,SideBarMenu,SideBtnWrap,SideBarRoute,SocialMedia, SocialMediaWrap, SocialLogo, SocialIcons, SocialIconLink, WebsiteRights} from './sideBarElements'
 import {Button ,Typography } from "antd";
 //import "antd/dist/antd.css";
 import { RightOutlined } from '@ant-design/icons';
+import {FaWhatsapp,FaTwitter, FaEnvelope, FaLinkedin, FaGithub} from 'react-icons/fa';
 
 const { Title } = Typography;
 
@@ -38,10 +39,29 @@ const SideBar = ({title1,title5,isOpen,toggle}) => {
                    
 
                     <SideBtnWrap>
+                    <SocialMedia>
+                <SocialMediaWrap>
+                    <SocialIcons>
+                        <SocialIconLink href="https://www.linkedin.com/in/silver-rubanza/" target="_blank" arial-label="LinkedIn">
+                            <FaLinkedin/>
+                        </SocialIconLink>
+                        <SocialIconLink href="https://twitter.com/countfettucine/" target="_blank" arial-label="Twitter">
+                            <FaTwitter/>
+                        </SocialIconLink>
+                        <SocialIconLink href="https://github.com/rubanzasilva/" target="_blank" aria-label="Github">
+                            <FaGithub/>
+                        </SocialIconLink>
+                        <SocialIconLink href="mailto:rubanza@rubanzasilver.xyz" target="_blank" arial-label="Email">
+                            <FaEnvelope/>
+                        </SocialIconLink>
+                    </SocialIcons>
+                </SocialMediaWrap>
+            </SocialMedia>
+{/* 
                         <SideBarRoute to="/ContactUs">
                         <Button to="/" type="link" size="medium"  style={{color:"#008000",
                        borderRadius:"6px",minWidth:"100px",marginTop:"15px"  }}>Contact Us { <RightOutlined />} </Button>
-                        </SideBarRoute>
+                        </SideBarRoute> */}
                     </SideBtnWrap>
 
                 </SideBarMenu>
