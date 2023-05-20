@@ -3,7 +3,7 @@ export const SectionAinfo = {
     id:'SelfIntro',
     TitleText:'Hi, I am Rubanza Silver',
     headline:'A Data Scientist with a background in Software Enginnering',
-    text:'My work and intrest lies in working on various stpes of the machine learning lifecycle from EDA, Data wrangling to Model building , deployment , testing etc',
+    text:'My work and interest lies in working on various steps of the machine learning lifecycle from EDA, Data wrangling, Feature Engineering to Model building , deployment , testing, monitoring etc',
     text1:'Below are examples of my work',
     imgStart:false,
     // img:'https://d322abd807wvow.cloudfront.net/suwik-photos/eatGreen.jpeg',
