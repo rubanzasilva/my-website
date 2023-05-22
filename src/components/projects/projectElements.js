@@ -6,8 +6,10 @@ export const GridWrapper = styled.ul`
  grid-template-columns:1fr 1fr;
  background-color:#fff;
  list-style-type:none;
- height:900px;
- grid-gap:16px;
+//  height:900px;
+//  max-height:50vh;
+ grid-gap:2px;
+ border:2px solid red;
 
  @media screen and (max-width:960px) {
      grid-template-columns:1fr;
@@ -19,7 +21,33 @@ export const GridWrapper = styled.ul`
 
  export const GridItem = styled.li`
  background-color:#fff;
- height:100%;
+//  height:40%;
+ margin:auto;
+
  text-align:center;
+ border:2px solid black;
+//  width:100%;
  `
- 
+
+
+
+
+ export const SectionText = styled.div`
+    margin:auto;
+ line-height:75px;
+ display:flex;
+ flex-direction:column;
+ text-align:center;
+ align-content:center;
+ padding:100px;
+ border:1px solid #000;
+ background-color:#fff;
+ margin:4px;
+
+
+ @media screen and (max-width:780px) {
+     margin:16px 0 16px 0;
+     padding:32px;
+ }
+
+`
