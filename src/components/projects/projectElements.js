@@ -3,12 +3,12 @@ import styled from "styled-components";
 
 export const GridWrapper = styled.ul`
  display:grid;
- grid-template-columns:1fr 1fr;
+ grid-template-columns:1fr 1fr 1fr;
  background-color:#fff;
  list-style-type:none;
 //  height:900px;
 //  max-height:50vh;
- grid-gap:2px;
+//  grid-gap:2px;
  border:2px solid red;
 
  @media screen and (max-width:960px) {
@@ -21,11 +21,13 @@ export const GridWrapper = styled.ul`
 
  export const GridItem = styled.li`
  background-color:#fff;
-//  height:40%;
- margin:auto;
-
+//  height:100%;
+//  width:50%;
+//  margin:auto;
  text-align:center;
  border:2px solid black;
+ margin:auto;
+//  padding-left:30%;
 //  width:100%;
  `
 
