@@ -1,9 +1,6 @@
 import React from 'react';
 // import { Card } from 'antd';
-// import {GridItem, GridWrapper} from './projectElements'
-
-
-import * as React from 'react';
+import {GridItem, GridWrapper} from './projectElements'
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
@@ -13,7 +10,37 @@ import Typography from '@mui/material/Typography';
 
 export default function Projects() {
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <div>
+      <p>My Projects Of Intrest</p>
+      <GridWrapper>
+      <GridItem>
+      <Card sx={{ maxWidth: 345 }}>
+      <CardMedia
+        component="img"
+        alt="green iguana"
+        height="140"
+        image="/static/images/cards/contemplative-reptile.jpg"
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+          Antelope Classifier
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+        After training a machine learning model you need to deploy it to show potential stakeholders
+what the results would look like With a decent UI, not jupyter notebook sto achieve any sort of
+buyback from the people/business that potentially want and can pay for this type of service.
+
+        </Typography>
+      </CardContent>
+      <CardActions>
+        <Button size="small">Share</Button>
+        <Button size="small">Read More</Button>
+      </CardActions>
+    </Card>
+      </GridItem>
+
+      <GridItem>
+      <Card sx={{ maxWidth: 345 }}>
       <CardMedia
         component="img"
         alt="green iguana"
@@ -34,6 +61,33 @@ export default function Projects() {
         <Button size="small">Learn More</Button>
       </CardActions>
     </Card>
+      </GridItem>
+
+      <GridItem>
+      <Card sx={{ maxWidth: 345 }}>
+      <CardMedia
+        component="img"
+        alt="green iguana"
+        height="140"
+        image="/static/images/cards/contemplative-reptile.jpg"
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+          Lizard
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          Lizards are a widespread group of squamate reptiles, with over 6,000
+          species, ranging across all continents except Antarctica
+        </Typography>
+      </CardContent>
+      <CardActions>
+        <Button size="small">Share</Button>
+        <Button size="small">Learn More</Button>
+      </CardActions>
+    </Card>
+      </GridItem>
+    </GridWrapper>
+    </div>
   );
 }
 

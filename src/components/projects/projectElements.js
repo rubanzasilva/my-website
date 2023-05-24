@@ -29,6 +29,11 @@ export const GridWrapper = styled.ul`
  margin:auto;
 //  padding-left:30%;
 //  width:100%;
+
+@media screen and (max-width:960px) {
+    //padding:8px;
+    margin:8px;
+}
  `
 
 
