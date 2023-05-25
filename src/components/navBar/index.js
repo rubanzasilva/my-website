@@ -59,6 +59,13 @@ const Navbar = ({toggle,img,alt}) => {
                           {/* <NavLinks to="/shop">Shop</NavLinks> */}
                       </NavItem>
 
+                      <NavItem>
+                          <NavLinks to="https://d3q0oijmiduzg2.cloudfront.net/rubanzasilver/resumeSilva.pdf" target='_blank'>My Resume</NavLinks>
+                          {/* <NavLinks to="/shop">Shop</NavLinks> */}
+                      </NavItem>
+
+                      
+
 
                       
 
