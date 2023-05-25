@@ -9,7 +9,7 @@ export const GridWrapper = styled.ul`
 //  height:900px;
 //  max-height:50vh;
 //  grid-gap:2px;
- border:2px solid red;
+ //border:2px solid red;
 
  @media screen and (max-width:960px) {
      grid-template-columns:1fr;
@@ -25,7 +25,7 @@ export const GridWrapper = styled.ul`
 //  width:50%;
 //  margin:auto;
  text-align:center;
- border:2px solid black;
+ //border:2px solid black;
  margin:auto;
 //  padding-left:30%;
 //  width:100%;
