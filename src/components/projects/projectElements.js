@@ -1,6 +1,12 @@
 import styled from "styled-components";
 
 
+export const GridContainer = styled.div`
+background-color:white;
+margin:56px;
+padding:16px;
+`
+
 export const GridWrapper = styled.ul`
  display:grid;
  grid-template-columns:1fr 1fr 1fr;

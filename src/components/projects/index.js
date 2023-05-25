@@ -1,6 +1,6 @@
 import React from 'react';
 // import { Card } from 'antd';
-import {GridItem, GridWrapper} from './projectElements'
+import {GridContainer, GridItem, GridWrapper} from './projectElements'
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
@@ -19,8 +19,9 @@ import Typography from '@mui/material/Typography';
 
 export default function Projects({title,cardContentTitle,cardContentTitleA, cardContentTitleB ,cardContentBody,cardContentBodyA,cardContentBodyB, cardActionsText, cardActionsTextA, cardActionsTextB, alt, img, imgA, imgB, altA, altB}) {
   return (
-    <div>
-      <Typography variant='h4' gutterBottom textAlign='center'>  {title}</Typography>
+    <GridContainer>
+
+      <Typography variant='h4' gutterBottom textAlign='center' marginTop='6px'>  {title}</Typography>
 
       <GridWrapper>
 
@@ -102,7 +103,7 @@ export default function Projects({title,cardContentTitle,cardContentTitleA, card
       </GridItem>
     </GridWrapper>
     
-    </div>
+    </GridContainer>
   );
 }
 
