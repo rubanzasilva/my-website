@@ -70,7 +70,7 @@ export default function Projects({title,cardContentTitle,cardContentTitleA, card
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">{cardActionsTextA}</Button>
+        <Button href='https://github.com/rubanzasilva/my-website' size="small">{cardActionsTextA}</Button>
       </CardActions>
     </Card>
       </GridItem>
@@ -93,7 +93,10 @@ export default function Projects({title,cardContentTitle,cardContentTitleA, card
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">{cardActionsTextB}</Button>
+        <Button href='https://www.zicofe.com/' size="small">
+        {/* <a href='https://www.zicofe.com/'>{cardActionsTextB}</a> */}
+          {cardActionsTextB}
+          </Button>
       </CardActions>
     </Card>
       </GridItem>

@@ -6,6 +6,8 @@ export const GridWrapper = styled.ul`
  grid-template-columns:1fr 1fr 1fr;
  background-color:#fff;
  list-style-type:none;
+ margin:6px;
+ padding:6px;
 //  height:900px;
 //  max-height:50vh;
 //  grid-gap:2px;
@@ -21,6 +23,8 @@ export const GridWrapper = styled.ul`
 
  export const GridItem = styled.li`
  background-color:#fff;
+ margin:6px;
+ padding:6px;
 //  height:100%;
 //  width:50%;
 //  margin:auto;
