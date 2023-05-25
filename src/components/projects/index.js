@@ -17,81 +17,83 @@ import Typography from '@mui/material/Typography';
 
 // });
 
-export default function Projects() {
+export default function Projects({title,cardContentTitle,cardContentTitleA, cardContentTitleB ,cardContentBody,cardContentBodyA,cardContentBodyB, cardActionsText, cardActionsTextA, cardActionsTextB, alt, img, imgA, imgB, altA, altB}) {
   return (
     <div>
-      <Typography variant='h4' gutterBottom textAlign='center'>  My Projects Of Interest</Typography>
+      <Typography variant='h4' gutterBottom textAlign='center'>  {title}</Typography>
+
       <GridWrapper>
+
       <GridItem>
+
+      {/* individual card component */}
       <Card sx={{ maxWidth: 345 }}>
+
       <CardMedia
         component="img"
-        alt="green iguana"
+        alt={alt}
         height="140"
-        image="/static/images/cards/contemplative-reptile.jpg"
+        image={img}
       />
+
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          Antelope Classifier
+          {cardContentTitle}
         </Typography>
         <Typography variant="body2" color="text.secondary">
-        After training a machine learning model you need to deploy it to show potential stakeholders
-what the results would look like With a decent UI, not jupyter notebook sto achieve any sort of
-buyback from the people/business that potentially want and can pay for this type of service.
+          {cardContentBody}
 
         </Typography>
       </CardContent>
+
       <CardActions>
-        <Button size="small">Share</Button>
-        <Button size="small">Read More</Button>
+        <Button size="small">{cardActionsText}</Button>
       </CardActions>
     </Card>
       </GridItem>
 
-      <GridItem>
-      <Card sx={{ maxWidth: 345 }}>
-      <CardMedia
-        component="img"
-        alt="green iguana"
-        height="140"
-        image="/static/images/cards/contemplative-reptile.jpg"
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-          Lizard
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
-        </Typography>
-      </CardContent>
-      <CardActions>
-        <Button size="small">Share</Button>
-        <Button size="small">Learn More</Button>
-      </CardActions>
-    </Card>
-      </GridItem>
 
       <GridItem>
       <Card sx={{ maxWidth: 345 }}>
       <CardMedia
         component="img"
-        alt="green iguana"
+        alt={altA}
         height="140"
-        image="/static/images/cards/contemplative-reptile.jpg"
+        image={imgA}
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          Lizard
+          {cardContentTitleA}
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
+          {cardContentBodyA}
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Share</Button>
-        <Button size="small">Learn More</Button>
+        <Button size="small">{cardActionsTextA}</Button>
+      </CardActions>
+    </Card>
+      </GridItem>
+
+
+      <GridItem>
+      <Card sx={{ maxWidth: 345 }}>
+      <CardMedia
+        component="img"
+        alt={altB}
+        height="140"
+        image={imgB}
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+          {cardContentTitleB}
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          {cardContentBodyB}
+        </Typography>
+      </CardContent>
+      <CardActions>
+        <Button size="small">{cardActionsTextB}</Button>
       </CardActions>
     </Card>
       </GridItem>
