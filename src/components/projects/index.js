@@ -11,7 +11,7 @@ import Typography from '@mui/material/Typography';
 export default function Projects() {
   return (
     <div>
-      <p>My Projects Of Intrest</p>
+      <p>My Projects Of Interest</p>
       <GridWrapper>
       <GridItem>
       <Card sx={{ maxWidth: 345 }}>
@@ -87,6 +87,7 @@ buyback from the people/business that potentially want and can pay for this type
     </Card>
       </GridItem>
     </GridWrapper>
+    
     </div>
   );
 }
