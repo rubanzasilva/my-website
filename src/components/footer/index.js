@@ -29,7 +29,7 @@ const Footer = () => {
                      <FooterLinkTitle>About me</FooterLinkTitle>
    
                      <FooterLink to="/">Intrests</FooterLink>
-                     <FooterLink to="/">Resume</FooterLink>
+                     <FooterLink to="https://d3q0oijmiduzg2.cloudfront.net/rubanzasilver/resumeSilva.pdf" target='_blank'>Resume</FooterLink>
                      
 
                  </FooterLinkItems>
