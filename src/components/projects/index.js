@@ -7,11 +7,20 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+//import { styled } from '@mui/material';
+
+
+// const MyTitle = styled('Typography')({
+//   variant: 'h1',
+//   textAlign : 'center',
+
+
+// });
 
 export default function Projects() {
   return (
     <div>
-      <p>My Projects Of Interest</p>
+      <Typography variant='h4' gutterBottom textAlign='center'>  My Projects Of Interest</Typography>
       <GridWrapper>
       <GridItem>
       <Card sx={{ maxWidth: 345 }}>
