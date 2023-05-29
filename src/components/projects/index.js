@@ -17,7 +17,7 @@ import Typography from '@mui/material/Typography';
 
 // });
 
-export default function Projects({title,cardContentTitle,cardContentTitleA, cardContentTitleB ,cardContentBody,cardContentBodyA,cardContentBodyB, cardActionsText, cardActionsTextA, cardActionsTextB, alt, img, imgA, imgB, altA, altB}) {
+export default function Projects({title,cardContentTitle,cardContentTitleA, cardContentTitleB ,cardContentBody,cardContentBodyA,cardContentBodyB, cardActionsText, cardActionsTextA, cardActionsTextB, cardActionsTextX, alt, img, imgA, imgB, altA, altB}) {
   return (
     <GridContainer>
 
@@ -49,6 +49,7 @@ export default function Projects({title,cardContentTitle,cardContentTitleA, card
 
       <CardActions>
         <Button size="small">{cardActionsText}</Button>
+        <Button  href='https://huggingface.co/spaces/silvaKenpachi/antelopeClassifier?logs=build' size="small">{cardActionsTextX}</Button>
       </CardActions>
     </Card>
       </GridItem>
