@@ -4,6 +4,7 @@ export const projectsObjA = {
     cardContentTitle:'Antelope Classifier',
     cardContentBody:'After training a machine learning model you need to deploy it to show potential stakeholders what the results would look like With a decent UI, not jupyter notebook sto achieve any sort of buyback from the people/business that potentially want and can pay for this type of service.',
     cardActionsText:'Read More',
+    cardActionsTextX:'Try Out the App',
     img:'https://d3q0oijmiduzg2.cloudfront.net/rubanzasilver/antelopes.jpeg',
     alt:'Antelope Classfier Project',
     cardContentTitleA:'Personal Website',
