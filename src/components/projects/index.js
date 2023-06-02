@@ -49,7 +49,7 @@ export default function Projects({title,cardContentTitle,cardContentTitleA, card
 
       <CardActions>
       <Button  href='https://huggingface.co/spaces/silvaKenpachi/antelopeClassifier?logs=build' target='_blank' size="medium">{cardActionsTextX}</Button>
-      <Button  href='https://d3q0oijmiduzg2.cloudfront.net/rubanzasilver/AntelopeClassifierX.html' target='_blank' size="small">{cardActionsText}</Button>
+      <Button  href='https://d3q0oijmiduzg2.cloudfront.net/rubanzasilver/AntelopeClassifierY.html' target='_blank' size="small">{cardActionsText}</Button>
       </CardActions>
     </Card>
       </GridItem>
