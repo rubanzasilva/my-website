@@ -8,26 +8,10 @@ import { hotjar } from 'react-hotjar';
 
 ReactGA.initialize("G-R0Q539XKFD");
 
-
-hotjar.initialize(hjid, hjsv);
-
-// Identify the user
-hotjar.identify('USER_ID', { userProperty: 'value' });
-
-// Add an event
-hotjar.event('button-click');
-
-// Update SPA state
-hotjar.stateChange('/my/page');
-
-// Check if Hotjar has been initialized before calling its methods
-if (hotjar.initialized()) {
-  hotjar.identify('USER_ID', { userProperty: 'value' });
-}
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    
     <App />
   </React.StrictMode>
 );
