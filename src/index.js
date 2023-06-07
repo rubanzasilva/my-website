@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import ReactGA from "react-ga4";
-import { hotjar } from 'react-hotjar';
+// import ReactGA from "react-ga4";
+// import { hotjar } from 'react-hotjar';
 
-ReactGA.initialize("G-R0Q539XKFD");
+// ReactGA.initialize("G-R0Q539XKFD");
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
