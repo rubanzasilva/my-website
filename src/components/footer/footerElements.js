@@ -4,7 +4,6 @@ import {Link} from 'react-router-dom';
 
 export const FooterContainer = styled.footer`
  background-color:#ffffff;
- ${'' /* background-color:#35241A; */}
  border-box:border-box;
 `
 export const FooterWrap = styled.div`
@@ -112,35 +111,6 @@ export const WebsiteRights = styled.small`
  font-weight:600;
 
 `
-export const SocialIcons = styled.div`
- display:flex;
- justify-content:space-between;
- align-items:center;
- width:240px;
-`
-export const SocialIconLink = styled.a`
- ${'' /* color:#F7F2EF; */}
- color:#35241A;
- font-size:24px;
-`
 
-export const Img = styled.img`  
-    height:60px;
-    width:60px;
-    object-fit: contain;
-    border-radius: 4px;
 
-    @media screen and (max-width:960px) {
-    padding:0px 0px 32px ;
-}
 
-`
-
-export const LocationOnMap = styled.div`
-    display:flex;
-    width:100%;
-    margin: 40px auto 0 auto;
-    justify-content:center;
-    align-content:center;
-
-`

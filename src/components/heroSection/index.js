@@ -1,16 +1,16 @@
 import React, {useState} from 'react';
-import { GridWrapper,GridItem , SectionText,ImgWrap,Img, SocialMedia, SocialMediaWrap, SocialLogo, SocialIcons, SocialIconLink, WebsiteRights} from './sectionElements';
+import { GridWrapper,GridItem , SectionText,ImgWrap,Img} from './sectionElements';
 import {Typography } from "antd";
-import {FaWhatsapp,FaTwitter, FaEnvelope, FaLinkedin, FaGithub} from 'react-icons/fa';
+//import {FaWhatsapp,FaTwitter, FaEnvelope, FaLinkedin, FaGithub} from 'react-icons/fa';
 
 const { Title , Text } = Typography;
 
-const HeroSection = ({title,headline,description,text,text1,img,alt,TitleText}) => {
-    const [hover,setHover] = useState(false);
+const HeroSection = ({headline,text,text1,img,alt,TitleText}) => {
+    // const [hover,setHover] = useState(false);
 
-    const onHover = () => {
-        setHover(!hover)
-    };
+    // const onHover = () => {
+    //     setHover(!hover)
+    // };
 
     return (
         <GridWrapper >
