@@ -29,7 +29,7 @@ const Footer = () => {
 
                      <FooterLinkTitle>My Projects Of Interest</FooterLinkTitle>
    
-                     <FooterLink href="https://d3q0oijmiduzg2.cloudfront.net/rubanzasilver/antelopes.jpeg">Antelope classifier</FooterLink>
+                     <FooterLink href="https://d3q0oijmiduzg2.cloudfront.net/rubanzasilver/antelopes.jpeg" target='_blank'>Antelope classifier</FooterLink>
                      <FooterLink to="/">Demand forecasting</FooterLink>
                      
                  </FooterLinkItems>
@@ -40,8 +40,8 @@ const Footer = () => {
 
                      <FooterLinkTitle>My Blog</FooterLinkTitle>
    
-                     <FooterLink to="/ProductCatalog">Top posts</FooterLink>
-                     <FooterLink to="/ProductCatalog">My Original thoughts </FooterLink>             
+                     <FooterLink href="https://d3q0oijmiduzg2.cloudfront.net/rubanzasilver/antelopes.jpeg" target='_blank'>Top posts</FooterLink>
+                     <FooterLink to="/">My Original thoughts </FooterLink>             
 
                  </FooterLinkItems>
 
