@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React  from 'react';
 import { GridWrapper,GridItem , SectionText,ImgWrap,Img} from './sectionElements';
 import {Typography } from "antd";
 //import {FaWhatsapp,FaTwitter, FaEnvelope, FaLinkedin, FaGithub} from 'react-icons/fa';
@@ -6,6 +6,8 @@ import {Typography } from "antd";
 const { Title , Text } = Typography;
 
 const HeroSection = ({headline,text,text1,img,alt,TitleText}) => {
+
+    // import useState from react to use hover
     // const [hover,setHover] = useState(false);
 
     // const onHover = () => {
