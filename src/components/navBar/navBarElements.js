@@ -142,37 +142,36 @@ export const NavBtn = styled.nav`
  font-family:"Lato","Roboto","Helvetica Neue",sans-serif; */}
 `
 
-export const NavBtnLink = styled(LinkR)`
- color:#0000FF;
- display: flex;
- justify-content:flex-end;
- margin-left:16px;
- align-items:center;
- font-style: normal;
- text-align:center;
- font-weight:400;
- font-size: 16px;
- line-height: 1.381;
- padding:12px;
+// export const NavBtnLink = styled(LinkR)`
+//  color:#0000FF;
+//  display: flex;
+//  justify-content:flex-end;
+//  margin-left:16px;
+//  align-items:center;
+//  font-style: normal;
+//  text-align:center;
+//  font-weight:400;
+//  font-size: 16px;
+//  line-height: 1.381;
+//  padding:12px;
  
- &:hover {
-     transition: all 0.2s ease-in-out;
-     border-bottom: 2px solid #00a886;
- }
-`
-export const Img = styled.img`  
-    height:78px;
-    width:64px;
-    object-fit: contain;
-    border-radius: 4px;
+//  &:hover {
+//      transition: all 0.2s ease-in-out;
+//      border-bottom: 2px solid #00a886;
+//  }
+// `
 
-    @media screen and (max-width:960px) {
-     transition: 0.8s all ease;
-     height:44px;
- }
+// export const Img = styled.img`  
+//     height:78px;
+//     width:64px;
+//     object-fit: contain;
+//     border-radius: 4px;
 
-
-`
+//     @media screen and (max-width:960px) {
+//      transition: 0.8s all ease;
+//      height:44px;
+//  }
+// `
 
 export const SocialMedia = styled.section`
  max-width:1000px;
@@ -189,25 +188,8 @@ export const SocialMediaWrap = styled.div`
      flex-direction:column;
  }
 `
-export const SocialLogo = styled(LinkR)`
- ${'' /* color:#F7F2EF; */}
- color:#35241A;
- justify-self:start;
- cursor:pointer;
- text-decoration:none;
- font-size:1.5rem;
- display:flex;
- align-items:center;
- ${'' /* margin-top:16px; */}
- font-weight:bold;
- `
-export const WebsiteRights = styled.small`
- ${'' /* color:#F7F2EF; */}
- color:#35241A;
- ${'' /* margin-bottom:16px; */}
- font-weight:600;
 
-`
+
 export const SocialIcons = styled.div`
  display:flex;
  justify-content:space-between;

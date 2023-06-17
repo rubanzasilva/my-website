@@ -1,15 +1,12 @@
 import React from 'react';
 import { FaBars } from 'react-icons/fa';
-import {Nav,NavBarContainer,NavLogo,MobileIcon,NavMenu,NavItem,NavLinks,NavBtn,NavBtnLink,Img,SocialMedia, SocialMediaWrap, SocialLogo, SocialIcons, SocialIconLink, WebsiteRights} from './navBarElements';
-//import logo from '../../Images/suwikLogo.jpeg';
-//import 'antd/dist/antd.css';
-import {FaWhatsapp,FaTwitter, FaEnvelope, FaLinkedin, FaGithub} from 'react-icons/fa';
+import {Nav,NavBarContainer,NavLogo,MobileIcon,NavMenu,NavItem,NavLinks,NavBtn,SocialMedia, SocialMediaWrap, SocialIcons, SocialIconLink} from './navBarElements';
+import {FaTwitter, FaEnvelope, FaLinkedin, FaGithub} from 'react-icons/fa';
+//import { Typography } from 'antd';
 
-import { Typography } from 'antd';
+// const { Title } = Typography;
 
-const { Title } = Typography;
-
-const Navbar = ({toggle,img,alt}) => {
+const Navbar = ({toggle}) => {
     return (
         <>
           <Nav>
@@ -33,7 +30,6 @@ const Navbar = ({toggle,img,alt}) => {
                     </SocialIcons>
                 </SocialMediaWrap>
             </SocialMedia>
-                      {/* <Img src={logo} alt={alt}/> */}
                   </NavLogo>
 
                   <MobileIcon onClick={toggle}>
@@ -42,26 +38,21 @@ const Navbar = ({toggle,img,alt}) => {
 
                   <NavMenu>
                       <NavItem>
-                          <NavLinks to="/"> About Silver </NavLinks>
-                          {/* <NavLinks to="/ContactUs">About Zicofe</NavLinks> */}
+                          <NavLinks to="https://d3q0oijmiduzg2.cloudfront.net/rubanzasilver/resumeSilva.pdf" target='_blank'> About Silver </NavLinks>
                       </NavItem>
                       
 
                       <NavItem>
-
-                          {/* <NavLinks to="/cafe">Zicofe Cafe</NavLinks> */}
-                          <NavLinks to="/">Projects of interest</NavLinks>
+                          <NavLinks href="https://d3q0oijmiduzg2.cloudfront.net/rubanzasilver/antelopes.jpeg" target='_blank'>Projects of interest</NavLinks>
                       </NavItem>
 
 
                       <NavItem>
                           <NavLinks to="/">My Blog</NavLinks>
-                          {/* <NavLinks to="/shop">Shop</NavLinks> */}
                       </NavItem>
 
                       <NavItem>
                           <NavLinks to="https://d3q0oijmiduzg2.cloudfront.net/rubanzasilver/resumeSilva.pdf" target='_blank'>My Resume</NavLinks>
-                          {/* <NavLinks to="/shop">Shop</NavLinks> */}
                       </NavItem>
 
                       
