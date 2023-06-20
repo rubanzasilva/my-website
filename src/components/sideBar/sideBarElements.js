@@ -106,25 +106,7 @@ export const SocialMediaWrap = styled.div`
      flex-direction:column;
  }
 `
-export const SocialLogo = styled(LinkR)`
- ${'' /* color:#F7F2EF; */}
- color:#35241A;
- justify-self:start;
- cursor:pointer;
- text-decoration:none;
- font-size:1.5rem;
- display:flex;
- align-items:center;
- ${'' /* margin-top:16px; */}
- font-weight:bold;
- `
-export const WebsiteRights = styled.small`
- ${'' /* color:#F7F2EF; */}
- color:#35241A;
- ${'' /* margin-bottom:16px; */}
- font-weight:600;
 
-`
 export const SocialIcons = styled.div`
  display:flex;
  justify-content:space-between;
