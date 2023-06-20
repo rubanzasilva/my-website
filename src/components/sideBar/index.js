@@ -1,10 +1,10 @@
 import React from 'react'
 //import {SideBarContainer,Icon,CloseIcon, SideBtnWrap} from './SideBarElements';
-import {SideBarContainer, Icon ,CloseIcon,SideBarWrapper,SideBarMenu,SideBtnWrap,SideBarRoute,SocialMedia, SocialMediaWrap, SocialLogo, SocialIcons, SocialIconLink, WebsiteRights} from './sideBarElements'
-import {Button ,Typography } from "antd";
+import {SideBarContainer, Icon ,CloseIcon,SideBarWrapper,SideBarMenu,SideBtnWrap,SideBarRoute,SocialMedia, SocialMediaWrap,  SocialIcons, SocialIconLink} from './sideBarElements'
+import {Typography } from "antd";
 //import "antd/dist/antd.css";
-import { RightOutlined } from '@ant-design/icons';
-import {FaWhatsapp,FaTwitter, FaEnvelope, FaLinkedin, FaGithub} from 'react-icons/fa';
+// import { RightOutlined } from '@ant-design/icons';
+import {FaTwitter, FaEnvelope, FaLinkedin, FaGithub} from 'react-icons/fa';
 
 const { Title } = Typography;
 
