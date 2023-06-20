@@ -1,6 +1,7 @@
 import React from 'react';
 import {FooterContainer,FooterWrap,FooterLinksContainer,FooterLinksWrapper,FooterLinkItems,FooterLink,SocialMedia,SocialMediaWrap,SocialLogo,WebsiteRights} from './footerElements';
-import {BackTop} from 'antd';
+// import {BackTop} from 'antd';
+import { FloatButton } from 'antd';
 
 
 const Footer = () => {
@@ -65,6 +66,7 @@ const Footer = () => {
                     <SocialLogo to="/"> 
                     <p>Silver Rubanza</p> 
                     </SocialLogo>
+
                     <WebsiteRights>Built by Me - Silva with ReactJs © {new Date().getFullYear()}</WebsiteRights>
 
                 </SocialMediaWrap>
@@ -74,7 +76,7 @@ const Footer = () => {
             
 
         </FooterWrap>
-        <BackTop/>
+        <FloatButton.BackTop/>
             
         </FooterContainer>
     )
