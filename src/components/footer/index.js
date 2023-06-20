@@ -1,9 +1,7 @@
 import React from 'react';
-import {FooterContainer,FooterWrap,FooterLinksContainer,FooterLinksWrapper,FooterLinkItems,FooterLinkTitle,FooterLink,SocialMedia,SocialMediaWrap,SocialLogo,WebsiteRights} from './footerElements';
-import {BackTop, Collapse} from 'antd';
+import {FooterContainer,FooterWrap,FooterLinksContainer,FooterLinksWrapper,FooterLinkItems,FooterLink,SocialMedia,SocialMediaWrap,SocialLogo,WebsiteRights} from './footerElements';
+import {BackTop} from 'antd';
 
-
-const { Panel } = Collapse;
 
 const Footer = () => {
     return (
@@ -16,9 +14,9 @@ const Footer = () => {
 
                  <FooterLinkItems id='footerLinkItemA'>
 
-                     <FooterLinkTitle>About me</FooterLinkTitle>
+                     {/* <FooterLinkTitle>My Resume</FooterLinkTitle> */}
 
-                     <FooterLink to="/">Intrests</FooterLink>
+              
                      <FooterLink to="https://d3q0oijmiduzg2.cloudfront.net/rubanzasilver/resumeSilva.pdf" target='_blank'>Resume</FooterLink>
 
                  </FooterLinkItems>
@@ -27,10 +25,10 @@ const Footer = () => {
 
                  <FooterLinkItems id='footerLinkItemB'>
 
-                     <FooterLinkTitle>My Projects Of Interest</FooterLinkTitle>
+                     {/* <FooterLinkTitle>My Projects Of Interest</FooterLinkTitle> */}
    
-                     <FooterLink href="https://d3q0oijmiduzg2.cloudfront.net/rubanzasilver/antelopes.jpeg" target='_blank'>Antelope classifier</FooterLink>
-                     <FooterLink to="/">Demand forecasting</FooterLink>
+                     <FooterLink href="https://d3q0oijmiduzg2.cloudfront.net/rubanzasilver/antelopes.jpeg" target='_blank'>Projects Of Interest</FooterLink>
+                    
                      
                  </FooterLinkItems>
 
@@ -38,21 +36,19 @@ const Footer = () => {
 
                  <FooterLinkItems id='footerLinkItemC'>
 
-                     <FooterLinkTitle>My Blog</FooterLinkTitle>
-   
-                     <FooterLink href="https://d3q0oijmiduzg2.cloudfront.net/rubanzasilver/antelopes.jpeg" target='_blank'>Top posts</FooterLink>
-                     <FooterLink to="/">My Original thoughts </FooterLink>             
+                     {/* <FooterLinkTitle>My Blog</FooterLinkTitle> */}
+
+                     <FooterLink href="mailto:rubanza@rubanzasilver.xyz" target="_blank" arial-label="Email">Email Me</FooterLink>
 
                  </FooterLinkItems>
 
 
                  <FooterLinkItems id='footerLinkItemD'>
 
-                     <FooterLinkTitle>Contact me</FooterLinkTitle>
+                     {/* <FooterLinkTitle>Email Me</FooterLinkTitle> */}
    
-                     <FooterLink href="mailto:rubanza@rubanzasilver.xyz" target="_blank" arial-label="Email">Email</FooterLink>
                      <FooterLink href="https://twitter.com/countfettucine/" target="_blank" arial-label="Twitter">Twitter</FooterLink>
-                    
+
                  </FooterLinkItems>
                  
 
@@ -69,13 +65,7 @@ const Footer = () => {
                     <SocialLogo to="/"> 
                     <p>Silver Rubanza</p> 
                     </SocialLogo>
-                    <Collapse id="accordionWrapper" accordion expandIconPosition='right' style={{fontSize:"16px" , backgroundColor:"#fff" , marginBottom:"8px"}}>
-                        <Panel header="Contact Me" key="1">
-                            <p>rubanza@rubanzasilver.xyz</p>
-                        </Panel>
-                        </Collapse>
-                    <WebsiteRights>Built by Me - Silva © {new Date().getFullYear()}
-                      All rights reserved.</WebsiteRights>
+                    <WebsiteRights>Built by Me - Silva with ReactJs © {new Date().getFullYear()}</WebsiteRights>
 
                 </SocialMediaWrap>
             </SocialMedia>
