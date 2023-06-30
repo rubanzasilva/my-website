@@ -7,7 +7,7 @@ export const SectionAinfo = {
     text1:'Below are examples of my work',
     imgStart:false,
     // img:'https://d322abd807wvow.cloudfront.net/suwik-photos/eatGreen.jpeg',
-    img:'https://d3q0oijmiduzg2.cloudfront.net/rubanzasilver/faceShotA.JPG',
+    img:'https://d3q0oijmiduzg2.cloudfront.net/rubanzasilver/RubanzaSilverSelfie.JPEG',
     alt:'Picture of Rubanza Silver',
 };
 
