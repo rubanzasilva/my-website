@@ -17,7 +17,7 @@ import Typography from '@mui/material/Typography';
 
 // });
 
-export default function Projects({title,cardContentTitle,cardContentTitleA, cardContentTitleB ,cardContentBody,cardContentBodyA,cardContentBodyB, cardActionsText, cardActionsTextA, cardActionsTextB, cardActionsTextX, alt, img, imgA, imgB, altA, altB}) {
+export default function Projects({title,cardContentTitle,cardContentTitleA, cardContentTitleB , cardContentTitleC, cardContentBody,cardContentBodyA,cardContentBodyB,cardContentBodyC, cardActionsText, cardActionsTextA, cardActionsTextB,cardActionsTextC,cardActionsTextD, cardActionsTextX, alt, img, imgA, imgB,imgC, altA, altB,altC}) {
   return (
     <GridContainer>
 
@@ -25,7 +25,7 @@ export default function Projects({title,cardContentTitle,cardContentTitleA, card
 
       <GridWrapper>
 
-      <GridItem>
+      <GridItem id='gridItemOne'>
 
       {/* individual card component */}
       <Card sx={{ maxWidth: 345 }}>
@@ -48,7 +48,7 @@ export default function Projects({title,cardContentTitle,cardContentTitleA, card
       </CardContent>
 
       <CardActions>
-        <Button  href='https://projects.rubanzasilver.xyz' target='_blank' size="small">{cardActionsText}</Button>
+        <Button  href='https://antelopeclassifier.rubanzasilver.xyz/' target='_blank' size="small">{cardActionsText}</Button>
         <Button  href='https://huggingface.co/spaces/silvaKenpachi/antelopeClassifier?logs=build' target='_blank' size="small">{cardActionsTextX}</Button>
       </CardActions>
     </Card>
@@ -60,7 +60,7 @@ export default function Projects({title,cardContentTitle,cardContentTitleA, card
       <CardMedia
         component="img"
         alt={altA}
-        height="140"
+        height="200"
         image={imgA}
       />
       <CardContent>
@@ -102,6 +102,44 @@ export default function Projects({title,cardContentTitle,cardContentTitleA, card
       </CardActions>
     </Card>
       </GridItem>
+
+
+
+
+
+
+
+
+      {/* second grid item */}
+      <GridItem id='gridItemTwo'>
+
+<Card sx={{ maxWidth: 345 }}>
+
+<CardMedia
+  component="img"
+  alt={altC}
+  height="140"
+  image={imgC}
+/>
+
+<CardContent>
+  <Typography gutterBottom variant="h5" component="div">
+    {cardContentTitleC}
+  </Typography>
+  <Typography variant="body2" color="text.secondary">
+    {cardContentBodyC}
+
+  </Typography>
+</CardContent>
+
+<CardActions>
+  <Button  href='https://www.suwik.xyz/' target='_blank' size="small">{cardActionsTextC}</Button>
+  <Button  href='https://github.com/rubanzasilva/suwikEcommerce' target='_blank' size="small">{cardActionsTextD}</Button>
+</CardActions>
+</Card>
+</GridItem>
+
+
     </GridWrapper>
     
     </GridContainer>

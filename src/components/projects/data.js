@@ -17,4 +17,32 @@ export const projectsObjA = {
     cardActionsTextB:'Visit Zicofe.com',
     imgB:'https://d3q0oijmiduzg2.cloudfront.net/rubanzasilver/ZICOFE.JPG',
     altB:'Zicofe.com',
+    cardContentTitleC:'Suwik Investments Website',
+    cardContentBodyC:'Suwik aims to be the leading exporter of the freshest, highest quality agricultural products with guaranteed customer satisfaction',
+    cardActionsTextC:'Visit Site',
+    cardActionsTextD:'See Code',
+    imgC:'https://d322abd807wvow.cloudfront.net/suwik-photos/suwikLogo.jpeg',
+    altC:'Antelope Classfier Project',
+};
+
+
+export const projectsObjB = {
+    id:'projects-section-data',
+    title:'',
+    cardContentTitle:'Suwik Investments Website',
+    cardContentBody:'Suwik aims to be the leading exporter of the freshest, highest quality agricultural products with guaranteed customer satisfaction',
+    cardActionsText:'Visit Site',
+    cardActionsTextX:'See Code',
+    img:'https://d3q0oijmiduzg2.cloudfront.net/rubanzasilver/antelopes.jpeg',
+    alt:'Antelope Classfier Project',
+    cardContentTitleA:'Personal Website',
+    cardContentBodyA:'This website is built with reactjs.Follow the link below to check out the documentation.  ',
+    cardActionsTextA:'See Code',
+    imgA:'https://d3q0oijmiduzg2.cloudfront.net/rubanzasilver/faceShot.jpg',
+    altA:'Rubanza Silver Personal website',
+    cardContentTitleB:'Zigoti Coffee Website',
+    cardContentBodyB:'  Zigoti Coffee is a Ugandan coffee house that covers the whole value chain from growing, buying, processing, roasting, and export of Ugandan Coffee beans.',
+    cardActionsTextB:'Visit Zicofe.com',
+    imgB:'https://d3q0oijmiduzg2.cloudfront.net/rubanzasilver/ZICOFE.JPG',
+    altB:'Zicofe.com',
 };

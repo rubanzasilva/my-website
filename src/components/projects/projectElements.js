@@ -30,7 +30,7 @@ export const GridWrapper = styled.ul`
  export const GridItem = styled.li`
  background-color:#fff;
  margin:6px;
- padding:6px;
+ padding:12px;
 //  height:100%;
 //  width:50%;
 //  margin:auto;
