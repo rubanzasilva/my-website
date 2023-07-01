@@ -21,9 +21,10 @@ export default function Projects({title,cardContentTitle,cardContentTitleA, card
   return (
     <GridContainer>
 
-      <Typography variant='h4' gutterBottom textAlign='center' marginTop='6px'>  {title}</Typography>
+      <Typography variant='h4' gutterBottom textAlign='center' marginTop='7%' marginBottom='4%' >  {title}</Typography>
 
       <GridWrapper>
+
 
       <GridItem id='gridItemOne'>
 
@@ -55,30 +56,7 @@ export default function Projects({title,cardContentTitle,cardContentTitleA, card
       </GridItem>
 
 
-      <GridItem>
-      <Card sx={{ maxWidth: 345 }}>
-      <CardMedia
-        component="img"
-        alt={altA}
-        height="200"
-        image={imgA}
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-          {cardContentTitleA}
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-          {cardContentBodyA}
-        </Typography>
-      </CardContent>
-      <CardActions>
-        <Button href='https://github.com/rubanzasilva/my-website' size="small">{cardActionsTextA}</Button>
-      </CardActions>
-    </Card>
-      </GridItem>
-
-
-      <GridItem>
+      <GridItem id='gridItemTwo'>
       <Card sx={{ maxWidth: 345 }}>
       <CardMedia
         component="img"
@@ -104,14 +82,7 @@ export default function Projects({title,cardContentTitle,cardContentTitleA, card
       </GridItem>
 
 
-
-
-
-
-
-
-      {/* second grid item */}
-      <GridItem id='gridItemTwo'>
+      <GridItem id='gridItemThree'>
 
 <Card sx={{ maxWidth: 345 }}>
 
@@ -138,6 +109,29 @@ export default function Projects({title,cardContentTitle,cardContentTitleA, card
 </CardActions>
 </Card>
 </GridItem>
+
+
+<GridItem id='gridItemFour'>
+      <Card sx={{ maxWidth: 345 }}>
+      <CardMedia
+        component="img"
+        alt={altA}
+        height="200"
+        image={imgA}
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+          {cardContentTitleA}
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          {cardContentBodyA}
+        </Typography>
+      </CardContent>
+      <CardActions>
+        <Button href='https://github.com/rubanzasilva/my-website' size="small">{cardActionsTextA}</Button>
+      </CardActions>
+    </Card>
+      </GridItem>
 
 
     </GridWrapper>

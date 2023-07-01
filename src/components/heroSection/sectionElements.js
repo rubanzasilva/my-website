@@ -76,8 +76,8 @@ export const ImgWrap = styled.div`
 //removing the width causes element to go wild
 export const Img = styled.img`
     margin:auto;
-   width:60%;
-   height:60%;
+   width:50%;
+   height:50%;
    height:auto;
    object-fit:scale-down;
    left:0;
@@ -86,9 +86,10 @@ export const Img = styled.img`
 
  
  @media screen and (max-width:720px) {
-     flex-direction:column;
-     align-items:center;
-     margin-top:auto;
+    //  flex-direction:column;
+    //  align-items:center;
+    //  margin-top:auto;
+    display:none;
 
  }
 `
