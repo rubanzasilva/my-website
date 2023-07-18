@@ -29,9 +29,10 @@ function App() {
     if (acceptedByScrolling) {
       // triggered if user scrolls past threshold
       alert("Accept was triggered by user scrolling");
-    } else {
-      alert("Accept was triggered by clicking the Accept button");
-    }
+    } 
+    // else {
+    //   alert("Accept was triggered by clicking the Accept button");
+    // }
   }}
 >
 We and our partners collect cookies, access and use non-sensitive information from your device with your permission to enhance the content and experience on this website. To learn more about cookies, partners, and how we use your data, to review your options or these operations for each partner, visit the <span style={{ fontSize: "14px" }}><a href='https://www.privacypolicygenerator.info/live.php?token=thOvKkcSSYlpzMYn3DDGCokLUszPQ2de'>Privacy Policy</a></span>.{" "}
