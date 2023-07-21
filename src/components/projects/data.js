@@ -10,7 +10,7 @@ export const projectsObjA = {
     cardContentTitleA:'Personal Website',
     cardContentBodyA:'This website is built with reactjs.Follow the link below to check out the documentation.  ',
     cardActionsTextA:'See Code',
-    imgA:'https://d3q0oijmiduzg2.cloudfront.net/rubanzasilver/faceShot.jpg',
+    imgA:'https://d3q0oijmiduzg2.cloudfront.net/rubanzasilver/silverPotraitCompressed.webp',
     altA:'Rubanza Silver Personal website',
     cardContentTitleB:'Zigoti Coffee Website',
     cardContentBodyB:'  Zigoti Coffee is a Ugandan coffee house that covers the whole value chain from growing, buying, processing, roasting, and export of Ugandan Coffee beans.',

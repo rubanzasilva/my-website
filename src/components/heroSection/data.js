@@ -8,8 +8,9 @@ export const SectionAinfo = {
     text2:'Below are examples of my work',
     imgStart:false,
     // img:'https://d322abd807wvow.cloudfront.net/suwik-photos/eatGreen.jpeg',
-    img:'https://d3q0oijmiduzg2.cloudfront.net/rubanzasilver/RubanzaSilverSelfie.JPEG',
+    img:'https://d3q0oijmiduzg2.cloudfront.net/rubanzasilver/silverPotraitCompressed.webp',
     alt:'Picture of Rubanza Silver',
 };
+
 
 
