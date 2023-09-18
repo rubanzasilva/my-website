@@ -38,7 +38,7 @@ const Navbar = ({toggle}) => {
 
                   <NavMenu>
                       <NavItem>
-                          <NavLinks to="https://d3q0oijmiduzg2.cloudfront.net/rubanzasilver/resumeSilva.pdf" target='_blank'> About Silver </NavLinks>
+                          <NavLinks to="https://d3q0oijmiduzg2.cloudfront.net/rubanzasilver/resumeRubanzaSilva.pdf" target='_blank'> About Silver </NavLinks>
                       </NavItem>
                       
 
@@ -52,7 +52,7 @@ const Navbar = ({toggle}) => {
                       </NavItem>
 
                       <NavItem>
-                          <NavLinks to="https://d3q0oijmiduzg2.cloudfront.net/rubanzasilver/resumeSilva.pdf" target='_blank'>My Resume</NavLinks>
+                          <NavLinks to="https://d3q0oijmiduzg2.cloudfront.net/rubanzasilver/resumeRubanzaSilva.pdf" target='_blank'>My Resume</NavLinks>
                       </NavItem>
 
                       
