@@ -24,7 +24,7 @@ const SideBar = ({title1,title5,isOpen,toggle}) => {
             <SideBarWrapper>
                 <SideBarMenu>
                     {/* <SideBarLink to="/About"> */}
-                    <SideBarRoute to="/">   
+                    <SideBarRoute to="https://d3q0oijmiduzg2.cloudfront.net/rubanzasilver/Silver-Rubanza-Software-Engineer.pdf">   
                     <Title level={5} style={{color:"#000000",fontSize:"17px",lineHeight:"1.10722",fontWeight:"400",letterSpacing:".004em",marginTop:"6px",fontFamily:"Lato,Roboto"}}>About me</Title>
                     </SideBarRoute>
 
@@ -37,7 +37,7 @@ const SideBar = ({title1,title5,isOpen,toggle}) => {
                     <Title level={5} style={{color:"#000000",fontSize:"17px",lineHeight:"1.10722",fontWeight:"400",letterSpacing:".004em",fontFamily:"Lato,Roboto"}}>My Blog</Title>
                     </SideBarRoute>
 
-                    <SideBarRoute to="https://d3q0oijmiduzg2.cloudfront.net/rubanzasilver/resumeRubanzaSilva.pdf" target='_blank'>
+                    <SideBarRoute to="https://d3q0oijmiduzg2.cloudfront.net/rubanzasilver/Silver-Rubanza-Software-Engineer.pdf" target='_blank'>
                     <Title level={5} style={{color:"#000000",fontSize:"17px",lineHeight:"1.10722",fontWeight:"400",letterSpacing:".004em",fontFamily:"Lato,Roboto"}}>My Resume</Title>
                     </SideBarRoute>
                    
