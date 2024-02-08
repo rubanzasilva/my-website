@@ -24,7 +24,7 @@ const Navbar = ({toggle}) => {
                         <SocialIconLink href="https://github.com/rubanzasilva/" target="_blank" aria-label="Github">
                             <FaGithub/>
                         </SocialIconLink>
-                        <SocialIconLink href="mailto:rubanza@rubanzasilver.xyz" target="_blank" arial-label="Email">
+                        <SocialIconLink href="mailto:abc@rubanzasilver.xyz" target="_blank" arial-label="Email">
                             <FaEnvelope/>
                         </SocialIconLink>
                     </SocialIcons>

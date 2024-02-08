@@ -39,7 +39,7 @@ const Footer = () => {
 
                      {/* <FooterLinkTitle>My Blog</FooterLinkTitle> */}
 
-                     <FooterLink href="mailto:rubanza@rubanzasilver.xyz" target="_blank" arial-label="Email">Email Me</FooterLink>
+                     <FooterLink href="mailto:abc@rubanzasilver.xyz" target="_blank" arial-label="Email">Email Me</FooterLink>
 
                  </FooterLinkItems>
 
