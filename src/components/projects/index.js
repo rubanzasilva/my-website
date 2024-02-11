@@ -49,7 +49,7 @@ export default function Projects({title,cardContentTitle,cardContentTitleA, card
       </CardContent>
 
       <CardActions>
-        <Button  href='https://antelopeclassifier.rubanzasilver.xyz/' target='_blank' size="small">{cardActionsText}</Button>
+        <Button  href='https://rubanzasilva.github.io/antelope-classifier-documentation/' target='_blank' size="small">{cardActionsText}</Button>
         <Button  href='https://huggingface.co/spaces/silvaKenpachi/antelopeClassifier?logs=build' target='_blank' size="small">{cardActionsTextX}</Button>
       </CardActions>
     </Card>
