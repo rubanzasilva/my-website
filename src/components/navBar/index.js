@@ -38,7 +38,7 @@ const Navbar = ({toggle}) => {
 
                   <NavMenu>
                       <NavItem>
-                          <NavLinks to="https://d3q0oijmiduzg2.cloudfront.net/rubanzasilver/Silver-Rubanza-Software-Engineer.pdf" target='_blank'> About Silver </NavLinks>
+                          <NavLinks to="https://d3q0oijmiduzg2.cloudfront.net/rubanzasilver/Rubanza-Silver-S.E.pdf" target='_blank'> About Silver </NavLinks>
                       </NavItem>
                       
 
