@@ -24,7 +24,7 @@ const SideBar = ({title1,title5,isOpen,toggle}) => {
             <SideBarWrapper>
                 <SideBarMenu>
                     {/* <SideBarLink to="/About"> */}
-                    <SideBarRoute to="https://d3q0oijmiduzg2.cloudfront.net/rubanzasilver/Silver-Rubanza-Software-Engineer.pdf">   
+                    <SideBarRoute to="https://d3q0oijmiduzg2.cloudfront.net/rubanzasilver/Silver_Rubanza_Data_Scientist.pdf">   
                     <Title level={5} style={{color:"#000000",fontSize:"17px",lineHeight:"1.10722",fontWeight:"400",letterSpacing:".004em",marginTop:"6px",fontFamily:"Lato,Roboto"}}>About me</Title>
                     </SideBarRoute>
 
@@ -37,7 +37,7 @@ const SideBar = ({title1,title5,isOpen,toggle}) => {
                     <Title level={5} style={{color:"#000000",fontSize:"17px",lineHeight:"1.10722",fontWeight:"400",letterSpacing:".004em",fontFamily:"Lato,Roboto"}}>My Blog</Title>
                     </SideBarRoute>
 
-                    <SideBarRoute to="https://d3q0oijmiduzg2.cloudfront.net/rubanzasilver/Silver-Rubanza-Software-Engineer.pdf" target='_blank'>
+                    <SideBarRoute to="https://d3q0oijmiduzg2.cloudfront.net/rubanzasilver/Silver_Rubanza_Data_Scientist.pdf" target='_blank'>
                     <Title level={5} style={{color:"#000000",fontSize:"17px",lineHeight:"1.10722",fontWeight:"400",letterSpacing:".004em",fontFamily:"Lato,Roboto"}}>My Resume</Title>
                     </SideBarRoute>
                    
@@ -55,7 +55,7 @@ const SideBar = ({title1,title5,isOpen,toggle}) => {
                         <SocialIconLink href="https://github.com/rubanzasilva/" target="_blank" aria-label="Github">
                             <FaGithub/>
                         </SocialIconLink>
-                        <SocialIconLink href="mailto:rubanza@rubanzasilver.xyz" target="_blank" arial-label="Email">
+                        <SocialIconLink href="mailto:rubanza@rubanzasilver.com" target="_blank" arial-label="Email">
                             <FaEnvelope/>
                         </SocialIconLink>
                     </SocialIcons>
