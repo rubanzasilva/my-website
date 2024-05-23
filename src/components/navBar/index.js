@@ -52,8 +52,7 @@ const Navbar = ({toggle}) => {
                       </NavItem>
 
                       <NavItem>
-                          <NavLinks to="https://d3q0oijmiduzg2.cloudfront.net/rubanzasilver/Silver_Rubanza_Data_Scientist" target='_blank'>My Resume</NavLinks>
-
+                          <NavLinks to="https://d3q0oijmiduzg2.cloudfront.net/rubanzasilver/Silver_Rubanza_Data_Scientist.pdf" target='_blank'>My Resume</NavLinks>
                       </NavItem>
 
                       
