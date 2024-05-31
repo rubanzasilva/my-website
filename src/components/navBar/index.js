@@ -1,7 +1,6 @@
 import React from 'react';
-import { FaBars } from 'react-icons/fa';
 import {Nav,NavBarContainer,NavLogo,MobileIcon,NavMenu,NavItem,NavLinks,NavBtn,SocialMedia, SocialMediaWrap, SocialIcons, SocialIconLink} from './navBarElements';
-import {FaTwitter, FaEnvelope, FaLinkedin, FaGithub} from 'react-icons/fa';
+import {FaTwitter, FaEnvelope, FaLinkedin, FaGithub, FaBars, FaKaggle } from 'react-icons/fa';
 //import { Typography } from 'antd';
 
 // const { Title } = Typography;
@@ -14,7 +13,10 @@ const Navbar = ({toggle}) => {
                   <NavLogo to='/'>
                   <SocialMedia>
                 <SocialMediaWrap>
-                    <SocialIcons>
+                <SocialIcons>
+                        <SocialIconLink href="mailto:abc@rubanzasilver.com" target="_blank" arial-label="Email Me">
+                            <FaEnvelope/>
+                        </SocialIconLink>
                         <SocialIconLink href="https://www.linkedin.com/in/silver-rubanza/" target="_blank" arial-label="LinkedIn">
                             <FaLinkedin/>
                         </SocialIconLink>
@@ -24,8 +26,8 @@ const Navbar = ({toggle}) => {
                         <SocialIconLink href="https://github.com/rubanzasilva/" target="_blank" aria-label="Github">
                             <FaGithub/>
                         </SocialIconLink>
-                        <SocialIconLink href="mailto:abc@rubanzasilver.com" target="_blank" arial-label="Email">
-                            <FaEnvelope/>
+                        <SocialIconLink href="https://www.kaggle.com/rubanzasilva" target="_blank" arial-label="Kaggle">
+                            <FaKaggle/>
                         </SocialIconLink>
                     </SocialIcons>
                 </SocialMediaWrap>

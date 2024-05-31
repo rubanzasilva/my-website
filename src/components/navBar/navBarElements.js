@@ -194,7 +194,7 @@ export const SocialIcons = styled.div`
  display:flex;
  justify-content:space-between;
  align-items:center;
- width:240px;
+ width:320px;
 `
 export const SocialIconLink = styled.a`
  ${'' /* color:#F7F2EF; */}

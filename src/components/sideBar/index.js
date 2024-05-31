@@ -4,7 +4,7 @@ import {SideBarContainer, Icon ,CloseIcon,SideBarWrapper,SideBarMenu,SideBtnWrap
 import {Typography } from "antd";
 //import "antd/dist/antd.css";
 // import { RightOutlined } from '@ant-design/icons';
-import {FaTwitter, FaEnvelope, FaLinkedin, FaGithub} from 'react-icons/fa';
+import {FaTwitter, FaEnvelope, FaLinkedin, FaGithub, FaKaggle} from 'react-icons/fa';
 
 const { Title } = Typography;
 
@@ -46,6 +46,9 @@ const SideBar = ({title1,title5,isOpen,toggle}) => {
                     <SocialMedia>
                 <SocialMediaWrap>
                     <SocialIcons>
+                        <SocialIconLink href="mailto:rubanza@rubanzasilver.com" target="_blank" arial-label="Email">
+                            <FaEnvelope/>
+                        </SocialIconLink>
                         <SocialIconLink href="https://www.linkedin.com/in/silver-rubanza/" target="_blank" arial-label="LinkedIn">
                             <FaLinkedin/>
                         </SocialIconLink>
@@ -55,8 +58,8 @@ const SideBar = ({title1,title5,isOpen,toggle}) => {
                         <SocialIconLink href="https://github.com/rubanzasilva/" target="_blank" aria-label="Github">
                             <FaGithub/>
                         </SocialIconLink>
-                        <SocialIconLink href="mailto:rubanza@rubanzasilver.com" target="_blank" arial-label="Email">
-                            <FaEnvelope/>
+                        <SocialIconLink href="https://www.kaggle.com/rubanzasilva" target="_blank" arial-label="Kaggle">
+                            <FaKaggle/>
                         </SocialIconLink>
                     </SocialIcons>
                 </SocialMediaWrap>
