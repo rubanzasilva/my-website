@@ -17,7 +17,7 @@ import Typography from '@mui/material/Typography';
 
 // });
 
-export default function Projects({title,cardContentTitle,cardContentTitleA, cardContentTitleB , cardContentTitleC, cardContentBody,cardContentBodyA,cardContentBodyB,cardContentBodyC, cardActionsText, cardActionsTextA, cardActionsTextB,cardActionsTextC,cardActionsTextD, cardActionsTextX, alt, img, imgA, imgB,imgC, altA, altB,altC}) {
+export default function Projects({altE,imgE,cardContentTitleE,cardContentBodyE,cardActionsTextE,title,cardContentTitle,cardContentTitleA, cardContentTitleB , cardContentTitleC, cardContentBody,cardContentBodyA,cardContentBodyB,cardContentBodyC, cardActionsText, cardActionsTextA, cardActionsTextB,cardActionsTextC,cardActionsTextD, cardActionsTextX, alt, img, imgA, imgB,imgC, altA, altB,altC}) {
   return (
     <GridContainer>
 
@@ -25,8 +25,30 @@ export default function Projects({title,cardContentTitle,cardContentTitleA, card
 
       <GridWrapper>
 
-
       <GridItem id='gridItemOne'>
+      <Card sx={{ maxWidth: 345 }}>
+      <CardMedia
+        component="img"
+        alt={altE}
+        height="200"
+        image={imgE}
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+          {cardContentTitleE}
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          {cardContentBodyE}
+        </Typography>
+      </CardContent>
+      <CardActions>
+        <Button href='https://www.kaggle.com/code/rubanzasilva/fastai-gradient-boosting' size="small">{cardActionsTextE}</Button>
+      </CardActions>
+    </Card>
+      </GridItem>
+
+
+      <GridItem id='gridItemTwo'>
 
       {/* individual card component */}
       <Card sx={{ maxWidth: 345 }}>
@@ -34,7 +56,7 @@ export default function Projects({title,cardContentTitle,cardContentTitleA, card
       <CardMedia
         component="img"
         alt={alt}
-        height="140"
+        height="200"
         image={img}
       />
 
@@ -56,12 +78,12 @@ export default function Projects({title,cardContentTitle,cardContentTitleA, card
       </GridItem>
 
 
-      <GridItem id='gridItemTwo'>
+      <GridItem id='gridItemThree'>
       <Card sx={{ maxWidth: 345 }}>
       <CardMedia
         component="img"
         alt={altB}
-        height="140"
+        height="200"
         image={imgB}
       />
       <CardContent>
@@ -82,14 +104,14 @@ export default function Projects({title,cardContentTitle,cardContentTitleA, card
       </GridItem>
 
 
-      <GridItem id='gridItemThree'>
+<GridItem id='gridItemFour'>
 
 <Card sx={{ maxWidth: 345 }}>
 
 <CardMedia
   component="img"
   alt={altC}
-  height="140"
+  height="200"
   image={imgC}
 />
 
@@ -111,7 +133,9 @@ export default function Projects({title,cardContentTitle,cardContentTitleA, card
 </GridItem>
 
 
-<GridItem id='gridItemFour'>
+
+
+      <GridItem id='gridItemFive'>
       <Card sx={{ maxWidth: 345 }}>
       <CardMedia
         component="img"
@@ -132,6 +156,7 @@ export default function Projects({title,cardContentTitle,cardContentTitleA, card
       </CardActions>
     </Card>
       </GridItem>
+
 
 
     </GridWrapper>
