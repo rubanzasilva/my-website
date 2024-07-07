@@ -17,7 +17,7 @@ import Typography from '@mui/material/Typography';
 
 // });
 
-export default function Projects({altE,imgE,cardContentTitleE,cardContentBodyE,cardActionsTextE,title,cardContentTitle,cardContentTitleA, cardContentTitleB , cardContentTitleC, cardContentBody,cardContentBodyA,cardContentBodyB,cardContentBodyC, cardActionsText, cardActionsTextA, cardActionsTextB,cardActionsTextC,cardActionsTextD, cardActionsTextX, alt, img, imgA, imgB,imgC, altA, altB,altC}) {
+export default function Projects({altE,imgE,cardContentTitleE,cardContentBodyE,cardActionsTextE,cardActionsTextEA,title,cardContentTitle,cardContentTitleA, cardContentTitleB , cardContentTitleC, cardContentBody,cardContentBodyA,cardContentBodyB,cardContentBodyC, cardActionsText, cardActionsTextA, cardActionsTextB,cardActionsTextC,cardActionsTextD, cardActionsTextX, alt, img, imgA, imgB,imgC, altA, altB,altC}) {
   return (
     <GridContainer>
 
@@ -43,6 +43,7 @@ export default function Projects({altE,imgE,cardContentTitleE,cardContentBodyE,c
       </CardContent>
       <CardActions>
         <Button href='https://www.kaggle.com/code/rubanzasilva/fastai-gradient-boosting' size="small">{cardActionsTextE}</Button>
+        <Button href='https://www.kaggle.com/competitions/playground-series-s4e6/discussion/517020' size="small">{cardActionsTextEA}</Button>
       </CardActions>
     </Card>
       </GridItem>
