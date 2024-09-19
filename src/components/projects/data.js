@@ -29,6 +29,20 @@ export const projectsObjA = {
     cardActionsTextD:'See Code',
     imgC:'https://d322abd807wvow.cloudfront.net/suwik-photos/suwikLogo.jpeg',
     altC:'Antelope Classfier Project',
+
+    cardContentTitleY:'Binary Prediction of Poisonous Mushrooms',
+    cardContentBodyY:'A classification model to predict whether a mushroom is edible or poisonous based on its physical characteristics.',
+    cardActionsTextY:'Read notebook solution',
+    imgY:'https://d3q0oijmiduzg2.cloudfront.net/rubanzasilver/mushroomAnatomy.jpg',
+    altY:'Binary Prediction of Poisonous Mushrooms',
+
+    cardContentTitleZ:'Binary Classification of Insurance Cross Selling',
+    cardContentBodyZ:'A classification model to predict which customers respond positively to an automobile insurance offer.',
+    cardActionsTextZ:'Read notebook solution',
+    imgZ:'https://d3q0oijmiduzg2.cloudfront.net/rubanzasilver/insuarance_pexels.jpg',
+    altZ:'Binary Classification of Insurance Cross Selling',
+
+    
 };
 
 

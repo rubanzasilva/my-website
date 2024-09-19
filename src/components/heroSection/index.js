@@ -5,7 +5,7 @@ import {Typography } from "antd";
 
 const { Title , Text } = Typography;
 
-const HeroSection = ({headline,text,text1,text2,img,alt,TitleText}) => {
+const HeroSection = ({headline,text,text1,text2,text3,img,alt,TitleText}) => {
 
     // import useState from react to use hover
     // const [hover,setHover] = useState(false);
@@ -28,6 +28,7 @@ const HeroSection = ({headline,text,text1,text2,img,alt,TitleText}) => {
                      
                      <Text  style={{color:"#35241A", fontSize:"16px",lineHeight:"1.381",fontWeight:"200",letterSpacing:".016em",marginTop:"6px",marginBottom:"15px",fontFamily:"Roboto"}}>{headline}</Text>
                      <Text  style={{color:"#35241A", fontSize:"16px",lineHeight:"1.381",fontWeight:"200",letterSpacing:".016em",marginBottom:"15px",fontFamily:"Roboto"}}>{text}</Text>
+                     <Text  style={{color:"#35241A", fontSize:"16px",lineHeight:"1.381",fontWeight:"200",letterSpacing:".016em",marginBottom:"15px",fontFamily:"Roboto"}}>{text3}</Text>
                      <Text  style={{color:"#35241A", fontSize:"16px",lineHeight:"1.381",fontWeight:"200",letterSpacing:".016em",marginBottom:"15px",fontFamily:"Roboto"}}>{text1}</Text>
                      <Text  style={{color:"#35241A", fontSize:"16px",lineHeight:"1.381",fontWeight:"200",letterSpacing:".016em",marginBottom:"15px",fontFamily:"Roboto"}}>{text2}</Text>
                    

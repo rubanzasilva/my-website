@@ -17,7 +17,7 @@ import Typography from '@mui/material/Typography';
 
 // });
 
-export default function Projects({altE,imgE,cardContentTitleE,cardContentBodyE,cardActionsTextE,cardActionsTextEA,title,cardContentTitle,cardContentTitleA, cardContentTitleB , cardContentTitleC, cardContentBody,cardContentBodyA,cardContentBodyB,cardContentBodyC, cardActionsText, cardActionsTextA, cardActionsTextB,cardActionsTextC,cardActionsTextD, cardActionsTextX, alt, img, imgA, imgB,imgC, altA, altB,altC}) {
+export default function Projects({altE,imgE,cardContentTitleE,cardContentBodyE,cardActionsTextE,cardActionsTextEA,title,cardContentTitle,cardContentTitleA, cardContentTitleB , cardContentTitleC, cardContentBody,cardContentBodyA,cardContentBodyB,cardContentBodyC, cardActionsText, cardActionsTextA, cardActionsTextB,cardActionsTextC,cardActionsTextD, cardActionsTextX, alt, img, imgA, imgB,imgC, altA, altB,altC,cardContentTitleY,cardContentBodyY,cardActionsTextY,imgY,altY,cardContentTitleZ,cardContentBodyZ,cardActionsTextZ,imgZ,altZ}) {
   return (
     <GridContainer>
 
@@ -47,6 +47,56 @@ export default function Projects({altE,imgE,cardContentTitleE,cardContentBodyE,c
       </CardActions>
     </Card>
       </GridItem>
+
+
+      {/* Poisonous mushroom classification */}
+      <GridItem id='gridItemSeven'>
+      <Card sx={{ maxWidth: 345 }}>
+      <CardMedia
+        component="img"
+        alt={altY}
+        height="200"
+        image={imgY}
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+          {cardContentTitleY}
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          {cardContentBodyY}
+        </Typography>
+      </CardContent>
+      <CardActions>
+        <Button href='https://www.kaggle.com/code/rubanzasilva/fast-ai-gradient-boosting' size="small">{cardActionsTextY}</Button>
+      </CardActions>
+    </Card>
+      </GridItem>
+
+
+
+      {/* Insurance cross selling project */}
+      <GridItem id='gridItemSix'>
+      <Card sx={{ maxWidth: 345 }}>
+      <CardMedia
+        component="img"
+        alt={altZ}
+        height="200"
+        image={imgZ}
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+          {cardContentTitleZ}
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          {cardContentBodyZ}
+        </Typography>
+      </CardContent>
+      <CardActions>
+        <Button href='https://www.kaggle.com/code/rubanzasilva/fastai-neural-network-gradient-boosting' size="small">{cardActionsTextZ}</Button>
+      </CardActions>
+    </Card>
+      </GridItem>
+
 
 
       <GridItem id='gridItemTwo'>
