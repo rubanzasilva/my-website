@@ -17,7 +17,7 @@ import Typography from '@mui/material/Typography';
 
 // });
 
-export default function Projects({altE,imgE,cardContentTitleE,cardContentBodyE,cardActionsTextE,cardActionsTextEA,title,cardContentTitle,cardContentTitleA, cardContentTitleB , cardContentTitleC, cardContentBody,cardContentBodyA,cardContentBodyB,cardContentBodyC, cardActionsText, cardActionsTextA, cardActionsTextB,cardActionsTextC,cardActionsTextD, cardActionsTextX, alt, img, imgA, imgB,imgC, altA, altB,altC,cardContentTitleY,cardContentBodyY,cardActionsTextY,imgY,altY,cardContentTitleZ,cardContentBodyZ,cardActionsTextZ,imgZ,altZ}) {
+export default function Projects({altE,imgE,cardContentTitleE,cardContentBodyE,cardActionsTextE,cardActionsTextEA,title,cardContentTitle,cardContentTitleA, cardContentTitleB , cardContentTitleC, cardContentBody,cardContentBodyA,cardContentBodyB,cardContentBodyC, cardActionsText, cardActionsTextA, cardActionsTextB,cardActionsTextC,cardActionsTextD, cardActionsTextX, alt, img, imgA, imgB,imgC, altA, altB,altC,cardContentTitleY,cardContentBodyY,cardActionsTextY,imgY,altY,cardContentTitleZ,cardContentBodyZ,cardActionsTextZ,imgZ,altZ,cardContentTitleX, cardContentBodyX,cardActionsTextXA,cardActionsTextXB,imgX,altX}) {
   return (
     <GridContainer>
 
@@ -44,6 +44,30 @@ export default function Projects({altE,imgE,cardContentTitleE,cardContentBodyE,c
       <CardActions>
         <Button href='https://www.kaggle.com/code/rubanzasilva/fastai-gradient-boosting' size="small">{cardActionsTextE}</Button>
         <Button href='https://www.kaggle.com/competitions/playground-series-s4e6/discussion/517020' size="small">{cardActionsTextEA}</Button>
+      </CardActions>
+    </Card>
+      </GridItem>
+
+      {/* Used car prices regression */}
+      <GridItem id='gridItemSeven'>
+      <Card sx={{ maxWidth: 345 }}>
+      <CardMedia
+        component="img"
+        alt={altX}
+        height="200"
+        image={imgX}
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+          {cardContentTitleX}
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          {cardContentBodyX}
+        </Typography>
+      </CardContent>
+      <CardActions>
+        <Button href='https://www.kaggle.com/code/rubanzasilva/used-cars-eda-fastai-gradient-boosting' size="small">{cardActionsTextXA}</Button>
+        <Button href='https://www.kaggle.com/competitions/playground-series-s4e9/discussion/544513' size="small">{cardActionsTextXB}</Button>
       </CardActions>
     </Card>
       </GridItem>

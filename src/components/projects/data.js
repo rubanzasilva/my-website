@@ -30,6 +30,13 @@ export const projectsObjA = {
     imgC:'https://d322abd807wvow.cloudfront.net/suwik-photos/suwikLogo.jpeg',
     altC:'Antelope Classfier Project',
 
+    cardContentTitleX:'Regression - Prediction of Used Car Prices',
+    cardContentBodyX:'A regression model to predict the price of used cars based on various attributes',
+    cardActionsTextXA:'Read notebook solution',
+    cardActionsTextXB:'Read solution write up',
+    imgX:'https://d3q0oijmiduzg2.cloudfront.net/rubanzasilver/used_cars.jpg',
+    altX:'Binary Classification of Insurance Cross Selling',
+
     cardContentTitleY:'Binary Prediction of Poisonous Mushrooms',
     cardContentBodyY:'A classification model to predict whether a mushroom is edible or poisonous based on its physical characteristics.',
     cardActionsTextY:'Read notebook solution',
