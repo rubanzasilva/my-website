@@ -17,13 +17,35 @@ import Typography from '@mui/material/Typography';
 
 // });
 
-export default function Projects({altE,imgE,cardContentTitleE,cardContentBodyE,cardActionsTextE,cardActionsTextEA,title,cardContentTitle,cardContentTitleA, cardContentTitleB , cardContentTitleC, cardContentBody,cardContentBodyA,cardContentBodyB,cardContentBodyC, cardActionsText, cardActionsTextA, cardActionsTextB,cardActionsTextC,cardActionsTextD, cardActionsTextX, alt, img, imgA, imgB,imgC, altA, altB,altC,cardContentTitleY,cardContentBodyY,cardActionsTextY,imgY,altY,cardContentTitleZ,cardContentBodyZ,cardActionsTextZ,imgZ,altZ,cardContentTitleX, cardContentBodyX,cardActionsTextXA,cardActionsTextXB,imgX,altX}) {
+export default function Projects({altE,imgE,cardContentTitleE,cardContentBodyE,cardActionsTextE,cardActionsTextEA,title,cardContentTitle,cardContentTitleA, cardContentTitleB , cardContentTitleC, cardContentBody,cardContentBodyA,cardContentBodyB,cardContentBodyC, cardActionsText, cardActionsTextA, cardActionsTextB,cardActionsTextC,cardActionsTextD, cardActionsTextX, alt, img, imgA, imgB,imgC, altA, altB,altC,cardContentTitleY,cardContentBodyY,cardActionsTextY,imgY,altY,cardContentTitleZ,cardContentBodyZ,cardActionsTextZ,imgZ,altZ,cardContentTitleX, cardContentBodyX,cardActionsTextXA,cardActionsTextXB,imgX,altX,cardContentTitleF,cardContentBodyF,cardActionsTextF,imgF,altF}) {
   return (
     <GridContainer>
 
       <Typography variant='h4' gutterBottom textAlign='center' marginTop='7%' marginBottom='4%' >  {title}</Typography>
 
       <GridWrapper>
+
+      <GridItem id='gridItemNine'>
+      <Card sx={{ maxWidth: 345 }}>
+      <CardMedia
+        component="img"
+        alt={altF}
+        height="200"
+        image={imgF}
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+          {cardContentTitleF}
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          {cardContentBodyF}
+        </Typography>
+      </CardContent>
+      <CardActions>
+        <Button href='https://nbsanity.com/static/64b506b80020adafd31defb4d6afb508/load.html' size="small">{cardActionsTextF}</Button>
+      </CardActions>
+    </Card>
+      </GridItem>
 
       <GridItem id='gridItemOne'>
       <Card sx={{ maxWidth: 345 }}>
@@ -47,6 +69,7 @@ export default function Projects({altE,imgE,cardContentTitleE,cardContentBodyE,c
       </CardActions>
     </Card>
       </GridItem>
+
 
       {/* Used car prices regression */}
       <GridItem id='gridItemSeven'>

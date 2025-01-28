@@ -49,6 +49,12 @@ export const projectsObjA = {
     imgZ:'https://d3q0oijmiduzg2.cloudfront.net/rubanzasilver/insuarance_pexels.jpg',
     altZ:'Binary Classification of Insurance Cross Selling',
 
+    cardContentTitleF:'ML/AI model serving and deployment with BentoML',
+    cardContentBodyF:'Serving and deploying a binary classification machine learning model using BentoML',
+    cardActionsTextF:'Read More',
+    imgF:'https://d3q0oijmiduzg2.cloudfront.net/rubanzasilver/dalle_deployment.webp',
+    altF:'ML model deployment with BentoML',
+
     
 };
 
